@@ -1,0 +1,5 @@
+docker run --name go2debug --entrypoint bash -it  --network=host -v ~/code:/code unitree-go2-docker
+/code/unitree_sdk2_python
+export PYTHONPATH=/code/unitree_sdk2_python:$PYTHONPATH
+python example/go2/front_camera/camera_opencv.py enp118s0
+python example/go2/high_level/go2_sport_client.py enp118s0
