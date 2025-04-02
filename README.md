@@ -46,7 +46,7 @@ ros2 topic list
 ### Download the repo.
 ```bash
 # docker exec -it [CONTAINER_ID] /bin/bash
-# TODO
+git clone https://github.com/HR-zju/nav_baseline_union.git
 ```
 
 ### Unitree python sdk2
