@@ -70,7 +70,7 @@ You can find the initial repo [here](https://github.com/unitreerobotics/unitree_
     ```bash
     bash ./run_rosnode.sh
     ```
-    Now you can visialize the front camera by rviz2 and control the robot by ros2. For example:
+    Now you can visualize the front camera by rviz2 and control the robot by ros2. For example:
     ```bash
     ros2 topic pub /go2_high_level geometry_msgs/msg/Twist "{linear: {x: 0.1, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}" --once
     ```
